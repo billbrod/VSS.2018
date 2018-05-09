@@ -1,0 +1,13 @@
+* VSS 2018 poster notes
+
+ - pRF plot:
+   - the y-axis is the sigma of a Gaussian fit (so the radius of one
+     sigma, probably equivalent to half the line from Freeman and
+     Simoncelli, 2011)
+   - the center line is the best fit to the data, and then the error
+     slope is the fit to the residuals, so that the region spanned is
+     basically the middle 50% of the data.
+   - line only fit to data that went out to 6 degrees (they had data
+     out to 8 degrees, but started to see weird edge effects)
+   - this is the "allfits" data, which is the fit to all subjects from
+     the HCP 7T retinotopy data (181 healthy subjects, 1.6mm voxels)
