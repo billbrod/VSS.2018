@@ -11,3 +11,13 @@
      out to 8 degrees, but started to see weird edge effects)
    - this is the "allfits" data, which is the fit to all subjects from
      the HCP 7T retinotopy data (181 healthy subjects, 1.6mm voxels)
+ - final period plot:
+   - we're showing the diameter of 2 standard deviations, which is
+     0.25394 * ecc + .1
+   - this gives us then the following # of periods per 2 std dev (this
+     is the ratio of their slopes):
+     - circular: 1.489194
+     - radial: 1.91291
+     - forward spiral: 2.080483
+     - reverse spiral: 2.142731
+
